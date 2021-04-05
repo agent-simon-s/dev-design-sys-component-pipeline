@@ -4,7 +4,8 @@
             "font": {
               "base"     : { "value": "{brand.color.base.gray.medium.value}" },
               "secondary": { "value": "{brand.color.base.gray.medium.value}" },
-              "tertiary" : { "value": "{brand.color.base.gray.light.value}" }
+              "tertiary" : { "value": "{brand.color.base.gray.light.value}" },
+              "primary"     : { "value": "{ds.color.base.gray.dark.value}" }
             }
         }
     }

@@ -2,9 +2,10 @@
     "ds":{
         "color": {
             "font": {
-              "base"     : { "value": "{ds.color.base.gray.medium.value}" },
+              "base"     : { "value": "{ds.color.base.gray.dark.value}" },
               "secondary": { "value": "{ds.color.base.gray.medium.value}" },
-              "tertiary" : { "value": "{ds.color.base.gray.light.value}" }
+              "tertiary" : { "value": "{ds.color.base.gray.light.value}" },
+              "primary"     : { "value": "{ds.color.base.gray.dark.value}" }
             }
         }
     }

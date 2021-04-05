@@ -9,6 +9,12 @@
         },
         "red": { "value": "#FF0000" },
         "green": { "value": "#00FF00" }
+      },
+      "role":{
+        "primary":{"value": "{ds.color.base.red.value}"},
+        "background":{"value": "{ds.color.base.gray.dark.value}"},
+        "surface":{"value": "{ds.color.base.gray.medium.value}"},
+        "fill":{"value": "{dark.color.role.primary.value}"}
       }
     }
   }
