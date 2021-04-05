@@ -7,7 +7,12 @@ body {
   padding: 0;
   margin: 10%;
   &.brand-acme{
+    color: $brand-color-font-base;
     background-color: $brand-color-role-background;
+  }
+  &.theme-dark{
+    color: $dark-color-font-base;
+    background-color: $dark-color-role-background;
   }
 }
 
