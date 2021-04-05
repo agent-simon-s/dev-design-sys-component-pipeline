@@ -1,6 +1,6 @@
 {
   "name": "dev-npm",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -24,7 +24,7 @@
     "postdefinetokens": "copyfiles -f ds-dist-styles/**/* src-components/styles/",
     "prebuild": "npm run clean",
     "build:tokens": "npm run definetokens",
-    "build:scss": "sass src-components/styles/style.scss dist-components/main.css",
+    "build:scss": "sass src-components/styles/style.scss dist-components/main.css && copyfiles -f src-components/styles/*css dist-components",
     "build:components": "copyfiles -u 1 src-components/*.html  src-components/wc*/* dist-components",
     "build:bundle": "browserify ./src/app.js | uglifyjs --compress --mangle > ./public/js/app.js",
     "build": "npm run build:tokens && npm run build:scss && npm run build:components",
