@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAEA,IAAK;EACH,gBAAgB,ECgCS,OAAO;ED/BhC,KAAK,ECkCc,OAAO;EDjC1B,WAAW,ECyCa,mCAAmC;EDxC3D,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,GAAG;EACX,eAAY;IACV,gBAAgB,ECCU,OAAO;;ADGrC,EAAE;EACE,WAAW,EC+BW,oBAAoB;ED9B1C,SAAS,EC4BQ,CAAC;ED3BlB,WAAW,ECwCO,GAAG;;ADtCzB,EAAE;EACE,WAAW,EC0BW,oBAAoB;EDzB1C,SAAS,ECuBQ,CAAC;EDtBlB,WAAW,ECkCS,GAAG;;ADhC3B,EAAE;EACE,WAAW,ECqBW,oBAAoB;EDpB1C,SAAS,ECwBS,MAAM;EDvBxB,WAAW,EC4BU,GAAG",
-"sources": ["../src-components/styles/_global.scss","../src-components/styles/_ds-variables.scss"],
-"names": [],
-"file": "main.css"
-}
