@@ -39,21 +39,45 @@
 
         <wc-id-card 
         	name="Billy Maguire" 
-        	info="Avid speedwalker"
-        	 >
+        	info="Avid speedwalker">
         	 	<slot name="email">yourname@here.com</slot>
         	 	<slot name="number">123-555-1212</slot>
         </wc-id-card>
 
-        	 <hr>
+        <hr>
 
-
-
+        <div class="modeselektor">
+            <h5>modeselektor</h5>
+            <label for="acme">ACME Brand</label>
+            <input type="radio" name="modeselekt" id="acme" onclick="setMode('brand-acme')">
+            <label for="dark">Darkmode</label>
+            <input type="radio" name="modeselekt" id="dark" onclick="setMode('theme-dark')">
+            <label for="reset">Reset</label>
+            <input type="radio" name="modeselekt" id="reset" onclick="setMode('')">
+            <!--  <wc-button icon="&ocir;" onclick="setMode(brand-acme)" txt="ACME Brand"></wc-button>
+             <wc-button icon="&ocir;" txt="Darkmode"></wc-button>
+             <wc-button icon="&ocir;" txt="Reset"></wc-button> -->
+        </div>
+        <style>
+            .modeselektor{
+                position: fixed;
+                bottom:2rem;
+                left:2rem;
+            }
+        </style>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.0/webcomponents-bundle.js"></script>
         <script src="wc-header/dev-web-component-header.js"></script>
         <script src="wc-card/dev-web-component-card.js"></script>
         <script src="wc-button/dev-web-component-button.js"></script>
+        <script>
+            const $Bod = document.getElementsByTagName("BODY")[0]
+            function setMode(mode){
+                $Bod.className = '';
+                $Bod.className = mode;
+            }
+            
+        </script>
        <!--  <script src="dev-web-component-drop.js"></script> -->
         <!-- <script>
         	document.querySelector('web-comp-button').onClick = value =>
