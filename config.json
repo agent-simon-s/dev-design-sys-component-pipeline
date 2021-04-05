@@ -1,0 +1,21 @@
+{
+  "source": ["ds-src-tokens/**/*.json"],
+  "platforms": {
+    "scss": {
+      "transformGroup": "scss",
+      "buildPath": "ds-dist-styles/scss/",
+      "files": [{
+        "destination": "_ds-variables.scss",
+        "format": "scss/variables"
+      }]
+    },
+    "css": {
+      "transformGroup": "css",
+      "buildPath": "ds-dist-styles/css/",
+      "files": [{
+        "destination": "ds-variables.css",
+        "format": "css/variables"
+      }]
+    }
+  }
+}

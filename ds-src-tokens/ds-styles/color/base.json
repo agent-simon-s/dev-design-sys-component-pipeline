@@ -1,0 +1,23 @@
+{
+  "ds": {
+    "color": {
+      "base": {
+        "gray": {
+          "light" : { "value": "#CCCCCC" },
+          "medium": { "value": "#999999" },
+          "dark"  : { "value": "#111111" }
+        },
+        "red": { "value": "#FF0000" },
+        "blue": { "value": "#5487FD" },
+        "white": { "value": "#FFFFFF" },
+        "taupe": { "value": "#e1e1e1" }
+      },
+      "role": {
+        "primary":{"value": "{ds.color.base.blue.value}"},
+        "background":{"value": "{ds.color.base.taupe.value}"},
+        "surface":{"value": "{ds.color.base.white.value}"},
+        "fill":{"value": "{ds.color.role.primary.value}"}
+      }
+    }
+  }
+}

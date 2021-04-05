@@ -1,0 +1,21 @@
+{
+  "brand": {
+    "color": {
+      "base": {
+        "gray": {
+          "light" : { "value": "#CCCCCC" },
+          "medium": { "value": "#999999" },
+          "dark"  : { "value": "#111111" }
+        },
+        "red": { "value": "#FF0000" },
+        "green": { "value": "#00f101" }
+      },
+      "role": {
+        "primary":{"value": "{brand.color.base.green.value}"},
+        "background":{"value": "{ds.color.base.white.value}"},
+        "surface":{"value": "{ds.color.base.taupe.value}"},
+        "fill":{"value": "{ds.color.role.primary.value}"}
+      }
+    }
+  }
+}

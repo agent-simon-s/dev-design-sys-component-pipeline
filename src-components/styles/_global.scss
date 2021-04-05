@@ -1,0 +1,28 @@
+
+
+body {
+  background-color: $ds-color-role-background;
+  color: $ds-color-font-base;
+  font-family: $ds-font-face-sans-serif;
+  padding: 0;
+  margin: 10%;
+  &.brand-acme{
+    background-color: $brand-color-role-background;
+  }
+}
+
+h1{
+    font-family: $ds-font-face-slab-serif;
+    font-size:   $ds-size-font-large;
+    font-weight: $ds-font-weight-bold;
+}
+h2{
+    font-family: $ds-font-face-slab-serif;
+    font-size:   $ds-size-font-large;
+    font-weight: $ds-font-weight-medium;
+}
+h3{
+    font-family: $ds-font-face-slab-serif;
+    font-size:   $ds-font-size-medium;
+    font-weight: $ds-font-weight-regular;
+}

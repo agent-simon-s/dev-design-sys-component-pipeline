@@ -1,0 +1,11 @@
+{
+    "brand":{
+        "font": {
+            "base":{
+                "slab-serif": { "value": "Roboto"},
+                "sans-serif": { "value": "Roboto"},
+                "mono": { "value": "Roboto"}
+            }
+        }
+    }
+}

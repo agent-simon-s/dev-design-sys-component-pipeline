@@ -1,0 +1,11 @@
+{
+    "dark":{
+        "color": {
+            "font": {
+              "base"     : { "value": "{ds.color.base.white.value}" },
+              "secondary": { "value": "{ds.color.base.gray.light.value}" },
+              "tertiary" : { "value": "{ds.color.base.gray.light.value}" }
+            }
+        }
+    }
+}
