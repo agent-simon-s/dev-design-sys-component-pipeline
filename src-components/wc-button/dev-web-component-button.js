@@ -5,20 +5,21 @@ templateBtn.innerHTML = `
 	    :host {
 	      font-family: var(--ds-font-face-sans-serif);
 	    }
-	    button{
+	    :host(.btn--btn-primary) button {
+	    	color: var(--ds-color-role-surface);
+	    	background-color: var(--ds-color-role-fill);
+		}
+	    :host(.btn) button{
 			font-size: var( --ds-size-font-large);
 	    	line-height:var( --ds-size-button-large);
-	    	background-color: var(--ds-color-role-fill);
+	    	background-color: var(--ds-color-base-gray-medium);
 	    	width: var( --ds-size-button-large);
 	    	padding: var( --ds-size-space-narrow);
 	    	border:none;
 	    	border-radius: var( --ds-size-radius-button);
 	    	margin-bottom: var( --ds-size-space-medium);
 	    }
-	    .btn--btn-primary button {
-	    	background-color: var(--ds-color-role-fill);
-	    }
-	    .btn--btn-secondary button {
+	    :host(.btn--btn-secondary) button {
 	    	background-color: var(--ds-color-role-surface);
 	    }
 	    :host-context(.brand-acme) button{
