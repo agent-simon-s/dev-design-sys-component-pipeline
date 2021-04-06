@@ -5,15 +5,31 @@ templateBtn.innerHTML = `
 	    :host {
 	      font-family: var(--ds-font-face-sans-serif);
 	    }
-	    .btn{
+	    button{
 			font-size: var( --ds-size-font-large);
+	    	line-height:var( --ds-size-button-large);
+	    	background-color: var(--ds-color-role-fill);
+	    	width: var( --ds-size-button-large);
+	    	padding: var( --ds-size-space-narrow);
+	    	border:none;
+	    	border-radius: var( --ds-size-radius-button);
+	    	margin-bottom: var( --ds-size-space-medium);
+	    }
+	    .btn--btn-primary button {
 	    	background-color: var(--ds-color-role-fill);
 	    }
-	    :host-context(.brand-acme) .btn{
+	    .btn--btn-secondary button {
+	    	background-color: var(--ds-color-role-surface);
+	    }
+	    :host-context(.brand-acme) button{
 	    	background-color: var(--brand-color-role-primary);
 	    }
+	    :host-context(.theme-dark) button{
+	    	background-color: var(--dark-color-role-primary);
+	    }
+	    	
 	</style>
-	<button class="btn">
+	<button>
 		<span class="icon"></span>
 		<span class="txt"></span>
 	</button>

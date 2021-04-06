@@ -17,30 +17,37 @@ templateCard.innerHTML = `
 	    p{
 
 	    }
-	    .wc-header{
+	    .wc-card{
+	    	padding: var( --ds-size-space-medium) var( --ds-size-space-medium) var( --ds-size-space-wide);
 	    	background-color:var( --ds-color-role-surface);
 	    	border-bottom-size:1px;
 	    	border-bottom-style:solid;
 	    	border-bottom-color: var( --ds-color-role-primary);
+	    	margin-bottom: var( --ds-size-space-wide);
 	    }
 	    :host-context(.brand-acme){
 	    	font-family: var(--brand-font-face-sans-serif);
 
 	    }
-	    :host-context(.brand-acme) .wc-header{
+	    :host-context(.brand-acme) .wc-card{
 	    	background-color:var( --brand-color-role-surface);
 	    	border-bottom-color: var( --brand-color-role-primary);
 
 	    }
+	    :host-context(.theme-dark) .wc-card{
+	    	background-color:var( --dark-color-role-surface);
+	    	border-bottom-color: var( --dark-color-role-primary);
+
+	    }
 	</style>
-	<div class="wc-header">
+	<div class="wc-card">
 		<h3></h3>
 		<p>buddy</p>
 		<dl>
 			<dt>Email: </dt><dd><slot name="email"></dd>
 			<dt>Phone: </dt><dd><slot name="phone"></dd>
 		</dl>
-		<button>BUTTON</button>
+		<wc-button class="btn btn--btn-secondary" icon="&ocir;" txt="Contact"></wc-button>
 	</div>
 	`;
 
