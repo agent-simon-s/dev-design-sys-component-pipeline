@@ -1,7 +1,7 @@
 {
-  "name": "dev-npm",
+  "name": "dev-design-sys-component-pipeline",
   "version": "1.0.4",
-  "description": "",
+  "description": "End to end proof of concept for design system using tokens to create web-components",
   "main": "index.js",
   "scripts": {
     "test-old": "echo \"Error: no test specified\" && exit 1",
@@ -32,6 +32,14 @@
   },
   "author": "sjds",
   "license": "ISC",
+  "engines": {
+    "npm": "^6",
+    "node": "^12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "dev-design-sys-component-pipeline"
+  },
   "dependencies": {
     "express": "^4.17.1"
   },
