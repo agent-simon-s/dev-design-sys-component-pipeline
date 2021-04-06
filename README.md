@@ -16,6 +16,11 @@ npm install
 
 ## Running the project
 
+To run everything e2e just type 
+```
+npm run build
+```
+
 To run style dictonary build to transform tokens
 ```
 npm run build:tokens
@@ -26,7 +31,7 @@ To compile scss
 npm run build:scss
 ```
 
-To build components and copyfiles to dist-components
+To build (copy over) components and copyfiles to dist-components
 ```
 npm run build:components
 ```
