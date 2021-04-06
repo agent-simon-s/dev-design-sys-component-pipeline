@@ -32,14 +32,14 @@
         <p>Quick demo including some web components</p>
         <hr>
 
-        <wc-button class="btn" icon="&ocir;" txt="Don't Panic"></wc-button>
+        <wc-button class="btn btn--btn-primary" icon="&ocir;" txt="Don't Panic"></wc-button>
         <wc-button class="btn btn--btn-primary" icon="&Otimes;" txt="PANIC"></wc-button>
 
         <wc-id-card 
         	name="Billy Maguire" 
         	info="Avid speedwalker">
-        	 	<slot name="email">yourname@here.com</slot>
-        	 	<slot name="number">123-555-1212</slot>
+        	 	<span slot="email">yourname@here.com</span>
+        	 	<span slot="phone">123-555-1212</span>
         </wc-id-card>
 
         <div class="modeselektor">
@@ -59,6 +59,16 @@
                 position: fixed;
                 bottom:2rem;
                 left:2rem;
+                font-size: 0.8rem;
+                line-height: 1.4rem;
+                padding: 0.5rem 1.5rem;
+                background-color: rgba(0, 0, 0, 0.2);
+            }
+            .modeselektor h5 {
+                display: inline-block; padding: 0.8rem; font-weight: bold;
+            }
+            .modeselektor label {
+                display: inline-block; padding: 0.2rem 0.2rem 0.2rem 0.8rem;
             }
         </style>
 

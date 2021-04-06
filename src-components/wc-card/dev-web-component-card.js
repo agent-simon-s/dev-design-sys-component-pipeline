@@ -6,12 +6,17 @@ templateCard.innerHTML = `
 	        font-family: var(--ds-font-face-sans-serif);
 	    }
 	    dt{
+	    	display:inline;
+	    	float:left;
+	    	width:6rem;
 	    	font-size: var( --ds-size-font-small);
+	    	line-height: 1.3rem;
 	    	font-weight:600;
 	    	color: var( --ds-color-role-primary);
 	    }
 	    dd{
 	    	font-size: var( --ds-size-font-small);
+	    	line-height: 1.3rem;
 	    	font-weight:300;
 	    }
 	    p{
