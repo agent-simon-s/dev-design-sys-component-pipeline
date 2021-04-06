@@ -5,22 +5,22 @@ templateBtn.innerHTML = `
 	    :host {
 	      font-family: var(--ds-font-face-sans-serif);
 	    }
-	    :host(.btn--btn-primary) button {
-	    	color: var(--ds-color-role-surface);
-	    	background-color: var(--ds-color-role-fill);
-		}
 	    :host(.btn) button{
 			font-size: var( --ds-size-font-large);
 	    	line-height:var( --ds-size-button-large);
-	    	background-color: var(--ds-color-base-gray-medium);
+	    	background-color: var(--ds-color-base-gray-light	);
 	    	width: var( --ds-size-button-large);
-	    	padding: var( --ds-size-space-narrow);
+	    	padding: var( --ds-size-space-narrow) var( --ds-size-space-wide) var( --ds-size-space-narrow) var( --ds-size-space-narrow);
 	    	border:none;
 	    	border-radius: var( --ds-size-radius-button);
 	    	margin-bottom: var( --ds-size-space-medium);
 	    }
+	    :host(.btn--btn-primary) button {
+	    	color: var(--ds-color-role-surface);
+	    	background-color: var(--ds-color-role-fill);
+		}
 	    :host(.btn--btn-secondary) button {
-	    	background-color: var(--ds-color-role-surface);
+	    	background-color: var(--ds-color-base-gray-light	);
 	    }
 	    :host-context(.brand-acme) button{
 	    	background-color: var(--brand-color-role-primary);
