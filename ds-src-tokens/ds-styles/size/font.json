@@ -2,17 +2,29 @@
   "ds":{
     "size": {
       "font": {
+        "tiny" : {
+          "value": "0.66rem",
+          "comment": "the small size of the font"
+        },
         "small" : {
-          "value": "0.75",
+          "value": "0.75rem",
           "comment": "the small size of the font"
         },
         "medium": {
-          "value": "1",
+          "value": "0.75rem",
           "comment": "the medium size of the font"
         },
         "large" : {
-          "value": "2",
+          "value": "1.1rem",
           "comment": "the large size of the font"
+        },
+        "x-large" : {
+          "value": "1.25rem",
+          "comment": "the xlarge size of the font"
+        },
+        "xx-large" : {
+          "value": "2rem",
+          "comment": "the xxlarge size of the font"
         },
         "base"  : {
           "value": "{ds.size.font.medium.value}",

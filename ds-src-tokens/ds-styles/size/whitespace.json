@@ -1,0 +1,26 @@
+{
+  "ds":{
+    "size": {
+      "space": {
+        "tight" : {
+          "value": "{ds.size.font.tiny.value}"
+        },
+        "narrow" : {
+          "value": "{ds.size.font.medium.value}"
+        },
+        "medium": {
+          "value": "{ds.size.font.large.value}"
+        },
+        "wide" : {
+          "value": "{ds.size.font.x-large.value}"
+        },
+        "vast" : {
+          "value": "{ds.size.font.xx-large.value}"
+        },
+        "base"  : {
+          "value": "{ds.size.space.medium.value}"
+        }
+      }
+    }
+  }
+}

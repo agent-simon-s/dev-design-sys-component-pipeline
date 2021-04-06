@@ -3,12 +3,12 @@
     "color": {
       "base": {
         "gray": {
-          "light" : { "value": "#CCCCCC" },
+          "light" : { "value": "#e5e5e5" },
           "medium": { "value": "#999999" },
           "dark"  : { "value": "#111111" }
         },
-        "red": { "value": "#FF0000" },
-        "green": { "value": "#00f101" }
+        "red": { "value": "#FF2200" },
+        "green": { "value": "#17a2b8" }
       },
       "role": {
         "primary":{"value": "{brand.color.base.green.value}"},

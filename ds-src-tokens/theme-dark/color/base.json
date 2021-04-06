@@ -3,17 +3,17 @@
     "color": {
       "base": {
         "gray": {
-          "light" : { "value": "#CCCCCC" },
+          "light" : { "value": "#EEEEEE" },
           "medium": { "value": "#999999" },
-          "dark"  : { "value": "#111111" }
+          "dark"  : { "value": "#1f2935" }
         },
-        "red": { "value": "#FF0000" },
-        "green": { "value": "#00FF00" }
+        "red": { "value": "#FF2200" },
+        "green": { "value": "#17a2b8" }
       },
       "role":{
-        "primary":{"value": "{ds.color.base.red.value}"},
-        "background":{"value": "{ds.color.base.gray.dark.value}"},
-        "surface":{"value": "{ds.color.base.gray.medium.value}"},
+        "primary":{"value": "{dark.color.base.red.value}"},
+        "background":{"value": "{dark.color.base.gray.dark.value}"},
+        "surface":{"value": "#455363"},
         "fill":{"value": "{dark.color.role.primary.value}"}
       }
     }

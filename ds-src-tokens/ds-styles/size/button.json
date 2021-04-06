@@ -1,0 +1,40 @@
+{
+  "ds":{
+    "size": {
+      "button": {
+        "small" : {
+          "value": "20rem"
+        },
+        "medium": {
+          "value": "30rem"
+        },
+        "wide" : {
+          "value": "40rem"
+        },
+        "vast" : {
+          "value": "60rem"
+        },
+        "base"  : {
+          "value": "{ds.size.font.medium.value}"
+        }
+      },
+      "radius": {
+        "circle" : {
+          "value": "4rem"
+        },
+        "soft": {
+          "value": "2.5rem"
+        },
+        "rounded" : {
+          "value": "1rem"
+        },
+        "hard" : {
+          "value": "0"
+        },
+        "button"  : {
+          "value": "{ds.size.radius.soft.value}"
+        }
+      }
+    }
+  }
+}
